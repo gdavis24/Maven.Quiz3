@@ -12,7 +12,10 @@ public class StringUtils {
     }
 
     public static Boolean isCharacterAtIndex(String baseString, Character characterToCheckFor, Integer indexOfString) {
-        return null;
+        if (baseString.charAt(indexOfString) == characterToCheckFor.charValue()){
+            return true;
+        }
+        return false;
     }
 
     public static String[] getAllSubStrings(String string) {
