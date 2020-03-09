@@ -32,7 +32,7 @@ public class VowelUtils {
 
     public static Boolean isVowel(Character character) {
         if (character == 'a' || character == 'A' || character == 'e' || character == 'E' || character == 'i' || character == 'I' ||
-                character == 'o' || character == 'O' || character == 'U' || character == 'U'){
+                character == 'o' || character == 'O' || character == 'u' || character == 'U'){
             return true;
         }
         return false;
