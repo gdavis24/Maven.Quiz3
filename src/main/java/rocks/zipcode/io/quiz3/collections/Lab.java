@@ -4,6 +4,7 @@ package rocks.zipcode.io.quiz3.collections;
  * @author leon on 10/12/2018.
  */
 public class Lab {
+    private LabStatus labStatus;
     public Lab() {
         this(null);
     }
@@ -19,6 +20,6 @@ public class Lab {
     }
 
     public LabStatus getStatus() {
-        return null;
+        return labStatus;
     }
 }
