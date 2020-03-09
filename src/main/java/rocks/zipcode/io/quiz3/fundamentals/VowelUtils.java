@@ -14,7 +14,12 @@ public class VowelUtils {
     }
 
     public static Integer getIndexOfFirstVowel(String word) {
-        return null;
+        for (int i = 0; i < word.length(); i++) {
+            if (isVowel(word.toCharArray()[i])) {
+                return i;
+            }
+        }
+        return -1;
     }
 
 
