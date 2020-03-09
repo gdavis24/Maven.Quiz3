@@ -14,7 +14,10 @@ public class VowelUtils {
 
 
     public static Boolean startsWithVowel(String word) {
-        return null;
+        if (isVowel(word.charAt(0))){
+            return true;
+        }
+        return false;
     }
 
     public static Boolean isVowel(Character character) {
